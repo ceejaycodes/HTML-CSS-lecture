@@ -1,0 +1,114 @@
+h1 {
+    color: red;
+}
+
+body {
+    
+    background-color: whitesmoke;
+
+}
+
+
+#google{
+
+    color: blue;
+
+}
+
+
+#amazon{
+    color: green;
+}
+
+.microsoft{
+    color:darkgoldenrod;
+}
+
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.firsttxt {
+    color:aliceblue;
+}
+
+
+.inputt{
+    width: 350px;
+    border-radius: 12px;
+    line-height: 22px;
+  
+    margin-bottom: 8px;
+    border-style: solid;
+    border-color: aliceblue;
+    
+
+    
+}
+
+.inputt:active{
+    border-color: aliceblue;
+}
+
+
+
+.text1 > * {
+    margin-left: 22px;
+}
+
+.textq{
+    display: flex;
+}
+
+
+
+.btndiv{
+    display: flex;
+    justify-content: center;
+}
+
+.btndiv h1, p {
+    color: black;
+}
+
+.imgdiv{
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.table-primary th, td{
+    
+        border: 1px solid;
+}
+
+
+#container {
+    display: flex;
+}
+
+#container > div {
+    background-color: green;
+    font-size: 20px;
+    margin: 22px;
+    width: 700px;
+
+    height: 500px;
+}
+
+
+.btnstyle{
+
+    margin-top: 70px;
+    margin-left: 85px;
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+.child1{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 12px;
+    border-color: black;
+    border-width: 8px;
+    border-style: dotted;
+}
+
+.child2{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 12px;
+    flex-basis: 100px;
+    border-color: white;
+    border-width: 8px;
+    border-style: dotted;
+
+}
+
+.child3{
+    height: 60px;
+    width: 60px;
+    /* flex-grow: 1; */
+    background-color: yellow;
+    border-radius: 12px;
+    border-color: green;
+    border-width: 8px;
+    border-style: dotted;
+}
+
+.parent{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+
+
+}
