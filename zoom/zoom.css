@@ -43,7 +43,7 @@ a{
 
 }
 
-.navspan a:hover{
+ a:hover{
     text-decoration: underline;
 }
 
@@ -57,12 +57,13 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72vh;
+    height: 70vh;
     z-index: 200;
 
 }
 
 .main img{
+    margin-top:4rem;
     height: 80px;
     width: 356px;
     z-index: 200;
@@ -71,7 +72,28 @@ a{
 .footer {
     bottom: 0;
     background-color: #f0f0f0;
-    height: 9rem;
+    height: 12.5rem;
     width: 100%;
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.footer p{
+    font-size: 11px;
+    color: #949494;
+    font-weight: 300;
+    line-height: 16.5px;
+}
+
+.footer a{
+    
+    font-size: .7rem;
+    color: #949494;
+
 }
